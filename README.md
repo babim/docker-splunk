@@ -24,5 +24,5 @@ This Docker container exposes the following network ports:
 
 Start a Splunk Enterprise container and mount volumes from host
 ```
-docker run --name splunk --hostname splunk -p 8000:8000  -e "SPLUNK_START_ARGS=--accept-license" -v /opt/splunk/etc:/opt
+docker run --name splunk --hostname splunk -p 8000:8000  -e "SPLUNK_START_ARGS=--accept-license" -v /opt/splunk/etc:/opt babim/splunk
 ```
